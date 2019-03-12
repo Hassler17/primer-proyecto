@@ -1,0 +1,12 @@
+entero n1,n2,n3 
+inicio
+	escriba "ingrse los tres numeros de su suma"
+	llamar nueva_linea
+	escriba "ingrse primer numero:  "
+	lea n1
+	escriba "ingrse segundo numero:  "
+	lea n2
+	escriba "ingrese tercer numero:  "
+	lea n3
+	escriba "La suma de sus tres numeros es: ",n1+n2+n3
+fin
