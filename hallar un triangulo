@@ -1,0 +1,13 @@
+// Hallar el area de un triangulo
+entero base, altura, area
+inicio
+	escriba "Para hallar el area de un triangulo"
+	llamar nueva_linea
+	escriba "Ingrese el valor de la base del triangulo "
+	lea base
+	escriba "Ingrese el valor de la altura del triangulo "
+	lea altura
+	area<-base*altura/2
+	llamar nueva_linea
+	escriba "El area de su triangulo es  ",area
+fin
