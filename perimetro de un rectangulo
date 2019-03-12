@@ -1,0 +1,11 @@
+entero ancho,largo,perimetro
+inicio
+	escriba "Para hallar el perimetro de un rectangulo"
+	llamar nueva_linea
+	escriba "ingrese el valor del ancho del rectangulo:  "
+	lea ancho
+	escriba "ingrse el valor del largo del recrtangulo:  "
+	lea largo
+	perimetro<-ancho*2+largo*2
+	escriba "El perimetro del resctangulo es:  ",perimetro
+fin
